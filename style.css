@@ -1,0 +1,104 @@
+@charset "utf8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(228, 222, 222);
+} 
+
+header h1{
+    background-image: linear-gradient(red, rgb(139, 24, 24), rgb(94, 86, 86), rgb(189, 182, 182));
+    padding: 70px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    margin:-10px -20px -10px;
+}
+
+nav{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    margin: 0px -20px;
+}
+
+nav >a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+}
+
+nav >a:hover{
+    background-color: red;
+}
+
+main{
+    box-shadow: 2px 4px 20px;
+    background-color: white;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px
+    
+
+}
+
+main h1{
+    background-color: black ;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+main img{
+    
+    width: 100%;
+    max-width: 800px;
+}
+
+
+div{
+    margin:20px -20px ;
+    background-color:red;
+    position: relative;
+    padding: 20px;
+    padding-bottom: 50%
+
+    
+}
+
+div.video > iframe{
+    position: absolute;
+    top:5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+    
+    
+}
+
+
+h1{
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 10px -20px 0px;
+}
+
+h2{
+ background-color: black;
+ color: white;
+ text-align: center;
+ margin: 20px -20px 0px;
+
+
+}
+
+img.pequena{
+    max-width: 500px;
+    margin: auto;
+    display: block;
+}
