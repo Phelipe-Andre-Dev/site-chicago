@@ -12,16 +12,14 @@ header h1{
     text-align: center;
     font-weight: bold;
     font-size: 3em;
-    margin:-10px -40px -10px;
-    min-width: 600px;
+    margin:-15px -20px -10px;
 }
 
 nav{
     background-color: black;
     padding: 20px;
     text-align: center;
-    margin: 0px -50px;
-    min-width: 900;
+    margin: 20px -20px;
 }
 
 nav >a{
@@ -38,19 +36,11 @@ nav >a:hover{
 main{
     box-shadow: 2px 4px 20px;
     background-color: white;
-    min-width: 600px;
-    max-width: 400px;
-    margin: auto;
-    padding: 20px
-    
-
-}
-
-main h1{
     background-color: black ;
     color: white;
     text-align: center;
     font-weight: bold;
+    padding: auto;
     
 }
 
